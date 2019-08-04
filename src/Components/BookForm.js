@@ -10,6 +10,7 @@ const BookForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
+        // Call addBook() function from BookContext
         addBook(title, author);
 
         // Clear the inputs
